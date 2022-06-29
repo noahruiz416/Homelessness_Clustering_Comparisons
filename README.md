@@ -1,7 +1,7 @@
 # Homelessness_Clustering_Comparisons
-This project is for the researching, implementation, and comparison of several different clustering algorithms and approaches all based in Google Colab. This specific project is done in collaboration with the Data Science Unit at ASU, with the purpose of clustering groups of homeless into various groups, based on how much they utilize various Maricopa County services.
+This project is for the researching, implementation, and comparison of several different clustering algorithms and approaches all based in Google Colab. This specific project is done in collaboration with the Data Science Unit at ASU, with the purpose of clustering groups of homeless into various groups, based on how much they utilize various Maricopa County public services. To sum our results we find that there are five optimal clusters for homeless persons raning from "Very Low Service Usage" to "Very High Service Usage'. Additionally we find that there exists substantial inequality between the highest and lowest users of said services, implying potential waste or inadequate solicitation of services.
 
-### Resource Guide:
+## Resource Guide:
 Within this readme you will find various links, which lead to different files in this repository. 
 
 ### Analytical Report 
