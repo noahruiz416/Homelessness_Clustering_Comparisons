@@ -20,8 +20,8 @@ Dataset used for this analysis, the dataset caputures service usage for homeless
 Description of each of the fields in the dataset, good place to start for understanding the project:
 - https://github.com/noahruiz416/Homelessness_Clustering_Comparisons/blob/master/Data%20Dictionary.md
 
-### Production/Deliverable Files (In Progress)
+### Production/Deliverable Files 
 Production files for the model:
-- https://github.com/noahruiz416/Homelessness_Clustering_Comparisons/tree/master/ProductionFiles
+- https://github.com/noahruiz416/Homelessness_Clustering_Comparisons/tree/master/Production_Files
 
 ### Analytical report (In Progress)
