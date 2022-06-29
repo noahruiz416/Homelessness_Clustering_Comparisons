@@ -2,7 +2,7 @@
 This project is for the researching, implementation, and comparison of several different clustering algorithms and approaches all based in Google Colab. This specific project is done in collaboration with the Data Science Unit at ASU, with the purpose of clustering groups of homeless into various groups, based on how much they utilize various Maricopa County services.
 
 ## Resource Guide:
-Within this project you will find various files and md files, which all have unique purposes. This area breaks each of those areas down
+Within this readme you will find various links, which lead to different files in this repository. 
 
 ### Model Card 
 Provides a brief overview of the project and various metrics, models and ethical considerations when putting the project together:
@@ -19,3 +19,7 @@ https://github.com/noahruiz416/Homelessness_Clustering_Comparisons/tree/master/D
 ### Data Dictionary:
 Description of each of the fields in the dataset, good place to start for understanding the project:
 https://github.com/noahruiz416/Homelessness_Clustering_Comparisons/blob/master/Data%20Dictionary.md
+
+### Production/Deliverable Files (In Progress)
+
+### Analytical report (In Progress)
