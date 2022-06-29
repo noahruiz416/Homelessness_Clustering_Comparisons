@@ -1,3 +1,5 @@
+# Data Dictionary
+
 Project Type +	Title	Description
 - 1: Emergency Shelter, A project that offers temporary shelter (lodging) for the homeless in general or for specific populations of the homeless. Requirements and limitations may vary by program, and will be specified by the funder.
 - 2: Transitional Housing, A project that provides temporary lodging and is designed to facilitate the movement of homeless individuals and families into permanent housing within a specified period of time, but no longer than 24 months. Requirements and limitations may vary by program, and will be specified by the funder.
