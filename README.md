@@ -21,5 +21,7 @@ Description of each of the fields in the dataset, good place to start for unders
 https://github.com/noahruiz416/Homelessness_Clustering_Comparisons/blob/master/Data%20Dictionary.md
 
 ### Production/Deliverable Files (In Progress)
+Production files for the model:
+https://github.com/noahruiz416/Homelessness_Clustering_Comparisons/tree/master/ProductionFiles
 
 ### Analytical report (In Progress)
