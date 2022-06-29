@@ -14,6 +14,7 @@ Provides a brief overview of the project and various metrics, models and ethical
 
 ### Deliverable Files 
 Production files for the model:
+- Dependencies: Python 3.9+, Numpy, Pandas, Sklearn, Seaborn, Matplotlib, Jenkspy
 - https://github.com/noahruiz416/Homelessness_Clustering_Comparisons/tree/master/Production_Files
 
 ### Prototype
