@@ -6,22 +6,22 @@ Within this readme you will find various links, which lead to different files in
 
 ### Model Card 
 Provides a brief overview of the project and various metrics, models and ethical considerations when putting the project together:
-https://github.com/noahruiz416/Homelessness_Clustering_Comparisons/blob/master/Model%20Card.md
+- https://github.com/noahruiz416/Homelessness_Clustering_Comparisons/blob/master/Model%20Card.md
 
 ### Prototype
 Initial Exploratory Notebook Analysis of the dataset itself, treat as a draft and not the final product of this analysis:
-https://github.com/noahruiz416/Homelessness_Clustering_Comparisons/blob/master/Homeless_Clustering_Prototype.ipynb
+- https://github.com/noahruiz416/Homelessness_Clustering_Comparisons/blob/master/Homeless_Clustering_Prototype.ipynb
 
 ### Data:
 Dataset used for this analysis, the dataset caputures service usage for homeless individuals in Maricopa County from 2014 - 2018:
-https://github.com/noahruiz416/Homelessness_Clustering_Comparisons/tree/master/Data
+- https://github.com/noahruiz416/Homelessness_Clustering_Comparisons/tree/master/Data
 
 ### Data Dictionary:
 Description of each of the fields in the dataset, good place to start for understanding the project:
-https://github.com/noahruiz416/Homelessness_Clustering_Comparisons/blob/master/Data%20Dictionary.md
+- https://github.com/noahruiz416/Homelessness_Clustering_Comparisons/blob/master/Data%20Dictionary.md
 
 ### Production/Deliverable Files (In Progress)
 Production files for the model:
-https://github.com/noahruiz416/Homelessness_Clustering_Comparisons/tree/master/ProductionFiles
+- https://github.com/noahruiz416/Homelessness_Clustering_Comparisons/tree/master/ProductionFiles
 
 ### Analytical report (In Progress)
