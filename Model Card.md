@@ -14,9 +14,7 @@ Jump to section:
 - [Ethical considerations](#ethical-considerations)
 - [Caveats and recommendations](#caveats-and-recommendations)
 
-
 ## Model details
-
 
 - Person or organization developing model: Noah Ruiz, ASU Unit for Data Science & Analytics
 
@@ -44,7 +42,6 @@ Jump to section:
 - Where to send questions or comments about the model: 
   - noahruiz416@gmail.com
 
-
 ## Intended use
 
 _Use cases that were envisioned during development._
@@ -64,10 +61,7 @@ Review section 4.2 of the [model cards paper](https://arxiv.org/abs/1810.03993).
 - Building clusters that further than a 4 - year period from 2018, without finding optimal clusters 
 - Using the clusters to identify homeless persons, without consider other demographic variables
 
-
-
 ## Factors
-
 
 ### Relevant factors
 - Maricopa County has seen steady homeless growth since 2014 (https://azmag.gov/Portals/0/Documents/MagContent/2019-07-31_PIT-Report.pdf?ver=T-l4h0uTPBJRk96khy5kwA%3d%3d)
@@ -78,9 +72,7 @@ Review section 4.2 of the [model cards paper](https://arxiv.org/abs/1810.03993).
 - Sillouthe Method Score
 - Calinski Harabasz Score
 - Davies Boudin Score
-  
 - Elbow method computed the opitmal number of clusters for both the whole dataset and 'total usage'
-
 
 ### Model performance measures
 - For this project the above evaluation metrics were used to track cluster purity and performance
@@ -104,37 +96,23 @@ Review section 4.2 of the [model cards paper](https://arxiv.org/abs/1810.03993).
 
 ## Quantitative analyses
 
-
 ### Unitary results:
 - 5 Optimal Clusters
 - Our final implementation using Jenks Natrual Breaks Optimization recieved the following scores based on our evaluation metrics: 
-  Calinski Harabasz Score: 133475.0909
-  Davies Boudin Scores: 0.4620
-  Silhouette Score: 0.8495
-
+  - Calinski Harabasz Score: 133475.0909
+  - Davies Boudin Scores: 0.4620
+  - Silhouette Score: 0.8495
 
 ## Ethical considerations
 
-_This section is intended to demonstrate the ethical considerations that went into model development,
-surfacing ethical challenges and solutions to stakeholders. Ethical analysis does not always lead to
-precise solutions, but the process of ethical contemplation is worthwhile to inform on responsible
-practices and next steps in future work._
-
-Review section 4.8 of the [model cards paper](https://arxiv.org/abs/1810.03993).
-
 ### Data
-
-### Human life
-
-### Mitigations
+- Collected data does represent the services that a homeless person used and could possibly be a violation of privacy. However the dataset used circumvents this by giving each homless inividual a personalID.
 
 ### Risks and harms
-
-### Use cases
+- Clusters should not be treated as 'absolute' and instead should be a starting point for further analysis
 
 ## Caveats and recommendations
 
-_This section should list additional concerns that were not covered in the previous sections._
+- Moving forward I recommend demographic data be collected to supplement the dataset provided. Doing so will increase the depth and potential of the various clusters. In particular collecting data on fields such as age, race, and years homeless could provide fruitful insights
 
-Review section 4.9 of the [model cards paper](https://arxiv.org/abs/1810.03993).
 
