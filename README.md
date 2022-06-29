@@ -27,4 +27,4 @@ Dataset used for this analysis, the dataset caputures service usage for homeless
 
 ### Data Dictionary:
 Description of each of the fields in the dataset, good place to start for understanding the project:
-- https://github.com/noahruiz416/Homelessness_Clustering_Comparisons/blob/master/Data%20Dictionary.m
+- https://github.com/noahruiz416/Homelessness_Clustering_Comparisons/blob/master/Data%20Dictionary.md
