@@ -24,7 +24,7 @@ Jump to section:
 - Model version: 
   - 1.0
  
-- Model type: 
+- Final Model type: 
   - Jenks Natrual Breaks Optimization
 
 - Information about training algorithms, parameters, fairness constraints or other applied
@@ -49,9 +49,9 @@ _Use cases that were envisioned during development._
 Review section 4.2 of the [model cards paper](https://arxiv.org/abs/1810.03993).
 
 ### Primary intended uses
-- Exploratory Understanding of Homeless Behaviors
+- Exploratory understanding of Homeless persons behaviors
 - Aid in the development of predictive models 
-- Cluster homeless indivudals into various groups
+- Cluster homeless individuals into various groups
 
 ### Primary intended users
 - Maricopa County Officials 
@@ -110,9 +110,10 @@ Review section 4.2 of the [model cards paper](https://arxiv.org/abs/1810.03993).
 
 ### Risks and harms
 - Clusters should not be treated as 'absolute' and instead should be a starting point for further analysis
+- Assumptions about data collection being accurate are made throughout the project
+- Additionally during data cleaning, we filled NA values with 0's which is another potentially naive assumption
 
 ## Caveats and recommendations
-
 - Moving forward I recommend demographic data be collected to supplement the dataset provided. Doing so will increase the depth and potential of the various clusters. In particular collecting data on fields such as age, race, and years homeless could provide fruitful insights
 
 
