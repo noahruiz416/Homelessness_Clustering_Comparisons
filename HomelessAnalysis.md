@@ -9,7 +9,7 @@ Based on the clusters it becomes apparent that there's a high imbalance between 
 
 ## Final Visualizations
 
-### Vizualizing Jenks Natrual Breaks Optimization 
+### Vizualizing Jenks Natural Breaks Optimization 
 <img width="500" alt="Screen Shot 2022-07-13 at 7 26 51 AM" src="https://user-images.githubusercontent.com/88412646/178794274-67b8e63f-07c9-4768-ba78-4a0384236818.png">
 
 On this graph we can see the clear Breaks/Usage Clusters that our model detected. The results are very fascinating and the graph clearly shows that clusters do exist based of the amount of services that homeless people use in the Maricopa County. Additionally it becomes clear that there is severe imbalance in the amount of services used as the majority of homeless individuals are not making use of services and fall with the low usage towards the far left.
@@ -24,10 +24,6 @@ This graph builds off our model and graphs the distribution of each cluster we f
 
 This graph shows the elbow method, which we used to choose the final number of clusters for our model. This method iterates through multiple versions of a model and tries to find the model that minimizes the amount of variation within clusters while maximizing variation between clusters. We then choose the optimal number of clusters based on the lowest number of clusters that min's the most variation.
 
-
-### Final Evaluation Methods for Clusters
-<img width="500" alt="Screen Shot 2022-06-29 at 8 01 39 AM" src="https://user-images.githubusercontent.com/88412646/176504982-f1bfba89-1341-4ff2-8d0d-d76dad3b1894.png">
-
 ## Exploratory Visualizations
 
 ### Initial Principal Component Analysis, with K Means Clusters for the various changes in color (code in prototype file)
@@ -41,3 +37,8 @@ Each of these graphs were used in the preliminary analysis and display a 'Projec
 
 ### Initial Principal Component Analysis, with BIRCH for the various changes in color (code in prototype file)
 <img width="1100" alt="Screen Shot 2022-06-29 at 8 17 52 AM" src="https://user-images.githubusercontent.com/88412646/176507703-7f64a3db-be0a-4caa-a2f7-bba0a168c338.png">
+
+
+## Final Evaluation Methods for Clusters
+<img width="500" alt="Screen Shot 2022-06-29 at 8 01 39 AM" src="https://user-images.githubusercontent.com/88412646/176504982-f1bfba89-1341-4ff2-8d0d-d76dad3b1894.png">
+
