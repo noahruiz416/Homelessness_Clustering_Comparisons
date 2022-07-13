@@ -10,18 +10,20 @@ Based on the clusters it becomes apparent that there's a high imbalance between 
 ## Final Visualizations
 
 ### Vizualizing Jenks Natrual Breaks Optimization 
-<img width="500" alt="Screen Shot 2022-06-29 at 8 02 32 AM" src="https://user-images.githubusercontent.com/88412646/176505118-4ce53d88-1687-4a8d-aa78-f90fac2ab96d.png">
+<img width="500" alt="Screen Shot 2022-07-13 at 7 26 51 AM" src="https://user-images.githubusercontent.com/88412646/178794274-67b8e63f-07c9-4768-ba78-4a0384236818.png">
 
-### Bar Chart of Most Used Services 
-<img width="500" alt="Screen Shot 2022-06-29 at 8 07 40 AM" src="https://user-images.githubusercontent.com/88412646/176505977-10c83e92-acf8-4269-8bb0-bbe3b9587a44.png">
+On this graph we can see the clear Breaks/Usage Clusters that our model detected. The results are very fascinating and the graph clearly shows that clusters do exist based of the amount of services that homeless people use in the Maricopa County. Additionally it becomes clear that there is severe imbalance in the amount of services used as the majority of homeless individuals are not making use of services and fall with the low usage towards the far left.
 
-### Scatterplots Showing Linear Relationships between various servies and total usage 
-<img width="500" alt="Screen Shot 2022-06-29 at 8 09 48 AM" src="https://user-images.githubusercontent.com/88412646/176506296-8b3ce93b-9d19-48e1-9a15-a86b98db706e.png">
+### Bar Chart Cluster Distribution
+<img width="500" alt="Screen Shot 2022-07-13 at 7 29 57 AM" src="https://user-images.githubusercontent.com/88412646/178794847-54c9b189-58cb-4bf8-ac8e-a804beceebe1.png">
 
-<img width="500" alt="Screen Shot 2022-06-29 at 8 10 15 AM" src="https://user-images.githubusercontent.com/88412646/176506357-a4d1cda2-57db-4b3d-b9ac-1512632ab121.png">
+This graph builds off our model and graphs the distribution of each cluster we found. It is clear that the majority of homeless indviduals fall within the 'Very Low Use' cluster. This shows a clear imbalance between service users in the homeless community. Though it is out of scope for this project, it's clear that there are other factors involved that may lead to this. For example it may be due to a lack of services in certain regions, improper resource management, or other external factors.
 
 ### Elbow Method for Optimal K Clusters 
 <img width="500" alt="Screen Shot 2022-06-29 at 8 11 31 AM" src="https://user-images.githubusercontent.com/88412646/176506581-1b5f9bdb-777b-4f67-9711-e2fff4b92c30.png">
+
+This graph shows the elbow method, which we used to choose the final number of clusters for our model. This method iterates through multiple versions of a model and tries to find the model that minimizes the amount of variation within clusters while maximizing variation between clusters. We then choose the optimal number of clusters based on the lowest number of clusters that min's the most variation.
+
 
 ### Final Evaluation Methods for Clusters
 <img width="500" alt="Screen Shot 2022-06-29 at 8 01 39 AM" src="https://user-images.githubusercontent.com/88412646/176504982-f1bfba89-1341-4ff2-8d0d-d76dad3b1894.png">
@@ -29,6 +31,9 @@ Based on the clusters it becomes apparent that there's a high imbalance between 
 ## Exploratory Visualizations
 
 ### Initial Principal Component Analysis, with K Means Clusters for the various changes in color (code in prototype file)
+
+Each of these graphs were used in the preliminary analysis and display a 'Projection' of the total dataset onto a scatterplot. As you can see the results of our projections are very hard to interpret and do not show any clear clusters within our dataset. Becuase of this we did not use these methods and instead used the model mentioned above. 
+
 <img width="1100" alt="Screen Shot 2022-06-29 at 8 15 33 AM" src="https://user-images.githubusercontent.com/88412646/176507285-90327ed6-c66f-4467-a15b-cb90d7839742.png">
 
 ### Initial Principal Component Analysis, with DBSCAN for the various changes in color (code in prototype file)
