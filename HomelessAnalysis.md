@@ -19,6 +19,12 @@ On this graph we can see the clear Breaks/Usage Clusters that our model detected
 
 This graph builds off our model and graphs the distribution of each cluster we found. It is clear that the majority of homeless indviduals fall within the 'Very Low Use' cluster. This shows a clear imbalance between service users in the homeless community. Though it is out of scope for this project, it's clear that there are other factors involved that may lead to this. For example it may be due to a lack of services in certain regions, improper resource management, or other external factors.
 
+### Bar Chart Showing Service Distribution
+
+<img width="500" alt="Screen Shot 2022-07-13 at 7 47 30 AM" src="https://user-images.githubusercontent.com/88412646/178797792-df053698-f8e2-4642-b4ea-d07066ac8193.png">
+
+This graph shows the distribution of various homeless services in the Maricopa County. From here we can see that various services tend to be used quite often by homeless individuals. But the pattern of constant imbalance continues in this graph as well, with certain services being used often and others not at all.
+
 ### Elbow Method for Optimal K Clusters 
 <img width="500" alt="Screen Shot 2022-06-29 at 8 11 31 AM" src="https://user-images.githubusercontent.com/88412646/176506581-1b5f9bdb-777b-4f67-9711-e2fff4b92c30.png">
 
